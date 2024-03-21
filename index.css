@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.pngtree.com%2Ffree-backgrounds-photos%2Fcores-claras&psig=AOvVaw3iGn7-alnF3j3JjTnOszQI&ust=1710547687349000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOi08ev89IQDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #e3b3b3;
+}
+
+#quote-box {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#quote {
+    font-size: 2em;
+}
+
+#source {
+    font-style: italic;
+}
+
+#new-quote {
+    font-size: 1.5em;
+    padding: 10px 20px;
+}

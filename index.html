@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Citações</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e3b3b3;
+        }
+        h1, p {
+            margin-bottom: 16px;
+        }
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 16px;
+            transition: transform 0.2s ease-in-out;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="quote"></h1>
+        <p id="source"></p>
+        <button id="new-quote">Gerar Citação</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
